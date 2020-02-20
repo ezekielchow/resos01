@@ -1,4 +1,6 @@
 .wrapper {
+  background-image: url('../img/heavyimg.jpeg');
+  background-size: cover;
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -14,4 +16,10 @@
   background: -webkit-linear-gradient(left, #27abe2, #a7ce39, #fcb916, #e4175f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.title-wrapper {
+  background: white;
+  display: flex;
+  flex-direction: column;
 }
